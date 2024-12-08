@@ -1,7 +1,8 @@
 public class index {
     public static void main(String[] args) {
         System.out.println("Prime numbers from 1 to 100 are:");
-        
+
+        // Loop through numbers to check for primes
         for (int num = 2; num <= 100; num++) {
             boolean isPrime = true;
             
